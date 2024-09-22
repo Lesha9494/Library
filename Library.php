@@ -1,5 +1,7 @@
 <?php
 
+namespace LibrarySystem;
+
 class Library
 {
     private array $books = [];

@@ -1,13 +1,17 @@
 <?php
 
-require_once 'Book.php';
-require_once 'Library.php';
+require 'Book.php';
+require 'Library.php';
 
-$book1 = new Book("Война и мир", "Лев Толстой", 1867, "Роман");
-$book2 = new Book("Капитанская дочка", "Александр Пушкин", 1836, "Роман");
-$book3 = new Book("Мёртвые души", "Николай Гоголь", 1842, "Сатира");
+use LibrarySystem\Book as BookClass;
+use LibrarySystem\Library as LibraryClass;
 
-$library = new Library();
+
+$book1 = new BookClass("Война и мир", "Лев Толстой", 1867, "Роман");
+$book2 = new BookClass("Капитанская дочка", "Александр Пушкин", 1836, "Роман");
+$book3 = new BookClass("Мёртвые души", "Николай Гоголь", 1842, "Сатира");
+
+$library = new LibraryClass();
 
 $library->addBook($book1);
 $library->addBook($book2);

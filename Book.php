@@ -1,5 +1,7 @@
 <?php
 
+namespace LibrarySystem;
+
 class Book
 {
     private string $title;

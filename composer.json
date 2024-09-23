@@ -1,10 +1,10 @@
 {
-    "name": "glus/library",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "Glus\\Library\\": "library/"
-        }
-    },
-    "require": {}
+  "name": "glus/library",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "LibrarySystem\\": ""
+    }
+  },
+  "require": {}
 }

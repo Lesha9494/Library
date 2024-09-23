@@ -1,11 +1,9 @@
 <?php
 
-require 'Book.php';
-require 'Library.php';
+require 'vendor/autoload.php';
 
 use LibrarySystem\Book as BookClass;
 use LibrarySystem\Library as LibraryClass;
-
 
 $book1 = new BookClass("Война и мир", "Лев Толстой", 1867, "Роман");
 $book2 = new BookClass("Капитанская дочка", "Александр Пушкин", 1836, "Роман");
